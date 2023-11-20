@@ -1,0 +1,42 @@
+msaconfig:
+  greeting: "hello msa"
+  
+---
+
+spring:
+  profiles: local
+
+msaconfig:
+  greeting: "msa local server"
+
+---
+
+spring:
+  profiles: dev
+
+msaconfig:
+  greeting: "msa dev server"
+
+---
+
+spring:
+  profiles: test
+  
+msaconfig:
+  greeting: "msa test server"
+
+---
+
+spring:
+  profiles: staging
+  
+msaconfig:
+  greeting: "msa staging server"
+
+---
+
+spring:
+  profiles: prod
+  
+msaconfig:
+  greeting: "msa prod server"
