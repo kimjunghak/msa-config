@@ -1,5 +1,6 @@
 spring:
-  profiles: dev
+  activate:
+    on-profile: dev
 
 msaconfig:
   greeting: "msa dev server"

@@ -1,5 +1,6 @@
 spring:
-  profiles: prod
+  activate:
+    on-profile: prod
 
 msaconfig:
   greeting: "msa prod server"

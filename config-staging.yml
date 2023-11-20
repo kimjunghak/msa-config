@@ -1,5 +1,6 @@
 spring:
-  profiles: staging
+  activate:
+    on-profile: staging
 
 msaconfig:
   greeting: "msa staging server"

@@ -1,5 +1,6 @@
 spring:
-  profiles: local
+  activate:
+    on-profile: local
 
 msaconfig:
   greeting: "msa local server"
