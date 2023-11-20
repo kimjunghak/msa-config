@@ -1,0 +1,5 @@
+spring:
+  profiles: staging
+
+msaconfig:
+  greeting: "msa staging server"
